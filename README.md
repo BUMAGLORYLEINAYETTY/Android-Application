@@ -1,16 +1,39 @@
-# grade_calculator_app
+# Android-Application
 
-A new Flutter project.
+Submission and organisation of the different projects for the course Android Studio.
 
-## Getting Started
+##  Grade Calculator Pro (Flutter)
 
-This project is a starting point for a Flutter application.
+A powerful Flutter application for calculating student grades with Excel import/export functionality.
 
-A few resources to get you started if this is your first Flutter project:
+### ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-  **Import Data** - Upload Excel/CSV files with student names and scores
+-  **Export Results** - Download formatted Excel files with color-coded grades
+-  **Manual Entry** - Add students individually
+-  **Live Statistics** - View real-time averages, highest/lowest scores
+-  **Beautiful UI** - Gradient backgrounds, color-coded student cards
+-  **Cross-Platform** - Works on Web, iOS, and Android
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###  Grade Scale
+
+| Score Range | Grade | Description |
+|------------|-------|-------------|
+| 90-100 | A | Excellent |
+| 80-89 | B | Very Good |
+| 70-79 | C | Good |
+| 60-69 | D | Satisfactory |
+| Below 60 | F | Needs Improvement |
+| No Score | - | No Score Provided |
+
+###  Getting Started with Grade Calculator
+
+```bash
+# Navigate to the project
+cd grade_calculator_app
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run -d chrome
